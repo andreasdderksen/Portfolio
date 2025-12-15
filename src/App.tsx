@@ -2,14 +2,21 @@ import './App.css'
 import ProjectCarousel from './components/ProjectCarousel'
 
 function App() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="page-transition">
       {/* Navigation */}
       <nav className="nav">
         <ul className="nav-links">
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a onClick={() => scrollToSection('projects')} style={{ cursor: 'pointer' }}>Projects</a></li>
+          <li><a onClick={() => scrollToSection('about')} style={{ cursor: 'pointer' }}>About</a></li>
+          <li><a onClick={() => scrollToSection('contact')} style={{ cursor: 'pointer' }}>Contact</a></li>
         </ul>
       </nav>
 
