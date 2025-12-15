@@ -185,6 +185,7 @@ function BlocklyDemo() {
                 },
                 trashcan: true,
                 theme: Blockly.Theme.defineTheme('escapeRoom', {
+                    name: 'escapeRoom',
                     base: Blockly.Themes.Classic,
                     componentStyles: {
                         workspaceBackgroundColour: '#0f0f23',
