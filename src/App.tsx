@@ -1,5 +1,4 @@
 import './App.css'
-import ThemeToggle from './components/ThemeToggle'
 import ProjectCarousel from './components/ProjectCarousel'
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <ThemeToggle />
       </nav>
 
       {/* Projects Section - FIRST */}
