@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ThemeToggle from '../components/ThemeToggle';
+import SyncedCanvasDemo from '../components/SyncedCanvasDemo';
 
 function CoopWS() {
     return (
@@ -37,6 +38,11 @@ function CoopWS() {
                         <img src="/images/coopws.png" alt="Coop_WS - Two browser windows showing real-time pixel sync" />
                         <p className="screenshot-caption">Real-time synchronization between two browser windows</p>
                     </div>
+                </div>
+
+                <div className="project-section">
+                    <h2>Interactive Demo</h2>
+                    <SyncedCanvasDemo />
                 </div>
 
                 <div className="project-section">
@@ -91,7 +97,7 @@ function CoopWS() {
                 </div>
 
                 <div className="project-links">
-                    <a href="https://github.com/andreas-derksen/Coop_WS" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                    <a href="https://github.com/Andreasd21/Coop_WS" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                         View on GitHub
                     </a>
                 </div>

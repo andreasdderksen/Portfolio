@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ThemeToggle from '../components/ThemeToggle';
+import ParserDemo from '../components/ParserDemo';
 
 function SimpleParser() {
     return (
@@ -37,6 +38,11 @@ function SimpleParser() {
                         <img src="/images/simpleparser.png" alt="SimpleParser - Expression parsing with AST visualization" />
                         <p className="screenshot-caption">Expression "1 + 2" parsed into an AST with visual representation</p>
                     </div>
+                </div>
+
+                <div className="project-section">
+                    <h2>Interactive Demo</h2>
+                    <ParserDemo />
                 </div>
 
                 <div className="project-section">
@@ -87,7 +93,7 @@ function SimpleParser() {
                 </div>
 
                 <div className="project-links">
-                    <a href="https://github.com/andreas-derksen/SimpleParser" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                    <a href="https://github.com/Andreasd21/SimpleParser" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                         View on GitHub
                     </a>
                     <a href="https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">

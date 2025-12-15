@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ThemeToggle from '../components/ThemeToggle';
+import BlocklyDemo from '../components/BlocklyDemo';
 
 function BlocklyEscapeRoom() {
     return (
@@ -38,6 +39,11 @@ function BlocklyEscapeRoom() {
                         <img src="/images/blockly.png" alt="Blockly Escape Room - Custom blocks for robot control" />
                         <p className="screenshot-caption">Custom Blockly blocks for robot movement, sensors, and escape room mechanics</p>
                     </div>
+                </div>
+
+                <div className="project-section">
+                    <h2>Interactive Demo</h2>
+                    <BlocklyDemo />
                 </div>
 
                 <div className="project-section">
